@@ -1,0 +1,2 @@
+Metti qui le tue foto: IMG_2902.jpg, IMG_3966.jpg, castello.png, castello2.png, muggiaporto2.jpeg, muggia.png, socerb.jpg, formaggino.jpg
+Il file favicon.png va invece nella cartella principale (accanto a index.html).
