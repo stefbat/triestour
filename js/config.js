@@ -1,7 +1,7 @@
 /* ===================== EDIT THIS FILE ===================== */
 const WHATSAPP = "393755871504";
 const EMAIL = "stefbattistin@gmail.com";
-const PRICE = 109;              // per person. Also appears as text in the HTML pages (search and replace 109)
+const PRICE = 99;              // per person. Also appears as text in the HTML pages (search and replace 99)
 const PRIVATE_PRICE = 629;      // whole van, up to 8 guests
 const FORM_ENDPOINT = "https://formspree.io/f/xyeeaway";
 const GA_ID = "";              // Google Analytics ID, e.g. "G-XXXXXXXXXX"
