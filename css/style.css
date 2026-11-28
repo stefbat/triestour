@@ -105,7 +105,7 @@ textarea{min-height:110px;resize:vertical}
  .facts{grid-template-columns:repeat(2,1fr)}.facts div:nth-child(2){border-right:0}.facts div:nth-child(-n+2){border-bottom:1px solid rgba(255,255,255,.2)}
  .split,.contact,.two,.plans,.rev{grid-template-columns:1fr}.split .ph{aspect-ratio:4/3;border-radius:16px}
  .days{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}
- .btn.ghost{margin:12px 0 0}
+ .btn.ghost{margin:10px 0 0 10px}
  #bar{display:flex;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:30;padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px));background:rgba(242,242,242,.96);border-top:1px solid #d6d6d6}
  #bar .btn{flex:1;text-align:center;padding:13px 10px}
  body{padding-bottom:80px}body[data-v=contact] #bar{display:none}
@@ -148,5 +148,19 @@ input[type=date]{-webkit-appearance:none;appearance:none;display:block;min-width
 @media (min-width: 768px) {
   .logo {
     line-height: normal;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-copy > .btn,
+  .foot a[href="cancellation.html"] {
+    display: block;
+    width: fit-content;
+    margin-inline: auto;
+  }
+
+  .foot a[href="cancellation.html"] {
+    max-width: 100%;
+    overflow-wrap: anywhere;
   }
 }
